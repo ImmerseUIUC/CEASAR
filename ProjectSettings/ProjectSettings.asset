@@ -857,10 +857,10 @@ PlayerSettings:
   metroPackageName: CEASAR
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets/WSATestCertificate.pfx
-  metroCertificatePassword: "ocboc~hk~m|i\x7F"
+  metroCertificatePassword: 
   metroCertificateSubject: Concord Consortium
   metroCertificateIssuer: Concord Consortium
-  metroCertificateNotAfter: 0090ed387337d901
+  metroCertificateNotAfter: 00463a48b780da01
   metroApplicationDescription: Connections of Earth and Sky in AR
   wsaImages: {}
   metroTileShortName: CEASAR

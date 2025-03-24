@@ -1,0 +1,6 @@
+#include "il2cpp-config.h"
+#include "G:\GitHub\CEASAR\Build-AWS\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\BlobReader.cpp"
+#include "G:\GitHub\CEASAR\Build-AWS\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\Debugger.cpp"
+#include "G:\GitHub\CEASAR\Build-AWS\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\NativeDelegateMethodCache.cpp"
+#include "G:\GitHub\CEASAR\Build-AWS\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\NativeSymbol.cpp"
+#include "G:\GitHub\CEASAR\Build-AWS\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\VmStringUtils.cpp"
