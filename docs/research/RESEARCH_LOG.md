@@ -11,6 +11,38 @@
 
 ## Entries
 - 2026-02-19
+  - Scope: Convert deep-dive findings into a technical NotebookLM briefing pack for PM media generation.
+  - Sources: `docs/research/DIVERGENCE_DEEP_DIVE_2026-02-19.md`, `docs/research/DIVERGENCE_REPORT_2026-02-19.md`.
+  - Findings: Added a technical script pack with strict factual constraints, subsystem matrix, and 30-day decision framework for podcast/infographic/slides/video generation.
+  - Confidence: High.
+  - Open questions: Final PM preference on reconciliation policy sequencing.
+  - Follow-ups: Run NotebookLM generation and review outputs against the pack quality checklist.
+  - Artifact: `docs/research/NOTEBOOKLM_PM_TECHNICAL_BRIEFING_PACK_2026-02-19.md`
+- 2026-02-19
+  - Scope: Deep functional analysis of branch divergence by subsystem and timeline.
+  - Sources: Local git graph + tree diffs (`origin/hl2-2023` vs `upstream/master`), package and ProjectSettings deltas.
+  - Findings: Networking stack/code is aligned at tip; primary active divergence is XR package strategy, HL2 interaction assets, scene/build topology, and build artifact footprint.
+  - Confidence: High.
+  - Open questions: Which subsystem buckets should be canonicalized vs backported vs purged before refactor execution.
+  - Follow-ups: Build a reconciliation matrix and convert findings into explicit backport work items.
+  - Report: `docs/research/DIVERGENCE_DEEP_DIVE_2026-02-19.md`
+- 2026-02-19
+  - Scope: Packaging divergence findings into a NotebookLM media-generation script for PM handoff.
+  - Sources: `docs/research/DIVERGENCE_REPORT_2026-02-19.md`.
+  - Findings: Created a single script pack covering podcast, infographic, slide deck, and short video narratives with consistent facts and decision framing.
+  - Confidence: High.
+  - Open questions: Preferred reconciliation policy (targeted backport vs broader parity).
+  - Follow-ups: Generate PM-facing media outputs in NotebookLM and validate against decision checklist.
+  - Artifact: `docs/research/NOTEBOOKLM_PM_SCRIPT_PACK_2026-02-19.md`
+- 2026-02-19
+  - Scope: Full branch divergence analysis (`TechnoHomesteader/main` vs `concord-consortium/master`).
+  - Sources: GitHub compare APIs, commit lists, file-level change metadata.
+  - Findings: `main` is `58 ahead / 138 behind` with long-lived dual-track divergence; major overlap hotspots in `Assets/Scripts`, `Assets/Prefabs`, and `Assets/Scenes`.
+  - Confidence: High.
+  - Open questions: Backport policy scope (targeted P0 vs broader reconciliation).
+  - Follow-ups: Decide reconciliation policy and create subsystem-level backport candidate list.
+  - Report: `docs/research/DIVERGENCE_REPORT_2026-02-19.md`
+- 2026-02-19
   - Scope: Recovery and continuity restoration.
   - Sources: `jplaney/CEASAR` `hl2-2023` archive snapshot.
   - Findings: Project files restored in `/Users/admin/Documents/#CAESAR/CEASAR`.

@@ -2,7 +2,7 @@
 
 ## Snapshot
 - Date: 2026-02-19
-- Active branch: `hl2-2023` (snapshot restored from archive)
+- Active branch: `main` (based on `hl2-2023` plus docs scaffolding commit)
 - Local repo path: `/Users/admin/Documents/#CAESAR/CEASAR`
 - Primary analysis target: `jplaney/CEASAR` fork (HoloLens-era continuation)
 
@@ -27,3 +27,6 @@
 
 ## Session Log
 - 2026-02-19: Restored CEASAR files from GitHub archive into `/Users/admin/Documents/#CAESAR/CEASAR` and rebuilt continuity docs scaffold.
+- 2026-02-19: Added branch divergence report and NotebookLM PM script pack in `docs/research/` for media-ready stakeholder handoff.
+- 2026-02-19: Added subsystem-level divergence deep dive with timeline/concurrency evidence in `docs/research/DIVERGENCE_DEEP_DIVE_2026-02-19.md`.
+- 2026-02-19: Added technical NotebookLM PM briefing pack (`docs/research/NOTEBOOKLM_PM_TECHNICAL_BRIEFING_PACK_2026-02-19.md`) and updated standard pack to prioritize deep-dive facts.
