@@ -1,0 +1,19 @@
+name: Docs Continuity Check
+
+on:
+  pull_request:
+
+jobs:
+  docs-continuity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fetch PR base branch
+        run: git fetch origin "${{ github.base_ref }}" --depth=1
+      - name: Validate continuity docs updates
+        run: |
+          chmod +x scripts/check_docs_continuity.sh
+          scripts/check_docs_continuity.sh --against "origin/${{ github.base_ref }}"
